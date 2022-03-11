@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor De Codigo</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <textarea onkeyup="update()" id="text" class="text" placeholder="Write your code here :OOOO"></textarea>
+
+        <iframe id="view" srcdoc="<h1>Hola mundo :OOOO</h1>">
+
+        </iframe>
+
+    </div>
+
+    <script src="./index.js""></script>
+</body>
+</html>
